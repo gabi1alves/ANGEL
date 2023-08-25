@@ -1,15 +1,24 @@
-:root {
-    --branco-principal: #FFFFFF;
-    --vermelho-secundário: #FF0000;
-    --cor-de-fundo: #000000;    
-}
-
-body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
-}
-
-* {
+*{
     margin: 0;
-    padding: 0;
+    margin: 0;
+}
+
+
+.cabeçalho {
+    background-color: #CB6CE6;
+    color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px  0;
+}
+
+.cabeçaho-imagem{
+    width: 20%;
+}
+
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
 }
